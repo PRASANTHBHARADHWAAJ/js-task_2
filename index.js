@@ -63,25 +63,3 @@ let hg= isVowel(v)
 console.log(hg);
 
 
-
-
-
-
-
-
-
-
-let b=prompt("enter string")
-
-let flag1=0;
-arr1=['a','e','i','o','u'];
-function isVowel(b)
-{
-  if (b = arr1.forEach((val) =>{
-    flag1=1;
-  }))
-  (flag1==1)?console.log("vowel"):console.log("not a vowel");
-}   
-let d=isVowel(b);
-console.log(d);
-
