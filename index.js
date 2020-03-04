@@ -1,43 +1,28 @@
-// let a=prompt("enter val")
-// function gradeFinder(a)
-// {
-//   if(a<40)
-//   {
-// console.log("fail");
-//   }
-//   if(a>=40 && a<60)
-//   {
-// console.log("Better");
-//   }
-//   if(a>=60)
-//   {
-// console.log("Good");
-//   }
+GRADE FINDER
 
-// }
-
-// let b=gradeFinder(a);
-// console.log(b);
-
-// let b=prompt("enter string")
-
-
-arr1=['a','e','i','o','u'];
-function isVowel(b)
+let a=prompt("enter val")
+function gradeFinder(a)
 {
-  if(b in arr1)
+  if(a<40)
   {
-    return b;
+console.log("fail");
   }
-  else{
-    return ("not a vowel");
+  if(a>=40 && a<60)
+  {
+console.log("Better");
   }
+  if(a>=60)
+  {
+console.log("Good");
+  }
+
 }
 
-let d=isVowel('a');
-console.log(d);
+let df=gradeFinder(a);
+console.log(df);
 
 
+PRIME NUMBER
 
 //  let c=prompt("enter string")
 
@@ -62,4 +47,41 @@ function isPrime(c)
 }
 let e=isPrime(c);
 console.log(e);
+
+
+VOWELS
+
+let v = prompt("enter string")
+const arr1=['a','e','i','o','u'];
+function isVowel(v)
+{
+  let ans = arr1.includes(v);
+  return ans ? 'vowel' :'not a vowel';
+}
+
+let hg= isVowel(v)
+console.log(hg);
+
+
+
+
+
+
+
+
+
+
+let b=prompt("enter string")
+
+let flag1=0;
+arr1=['a','e','i','o','u'];
+function isVowel(b)
+{
+  if (b = arr1.forEach((val) =>{
+    flag1=1;
+  }))
+  (flag1==1)?console.log("vowel"):console.log("not a vowel");
+}   
+let d=isVowel(b);
+console.log(d);
 
